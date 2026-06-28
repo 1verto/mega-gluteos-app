@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Mega Glúteos App</title>
+  
+  <!-- Tipografía -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Estilos -->
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+  <!-- PANTALLA DE LOGIN -->
+  <div id="login-screen" class="screen active">
+    <div class="login-container">
+      <div class="login-logo">
+        <h1>MEGA<br><span>GLÚTEOS</span></h1>
+        <p>Tu transformación de 21 días</p>
+      </div>
+      
+      <div class="login-box">
+        <h2>Acceso Exclusivo</h2>
+        <p>Ingresa la contraseña que recibiste en tu correo al realizar la compra.</p>
+        
+        <input type="password" id="password-input" placeholder="Contraseña de acceso">
+        <button id="login-btn">Entrar a la App</button>
+        <p id="login-error" class="error-msg">Contraseña incorrecta. Intenta de nuevo.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- PANTALLA PRINCIPAL (APP) -->
+  <div id="app-screen" class="screen">
+    
+    <!-- HEADER -->
+    <header class="app-header">
+      <h1 id="header-title">Rutinas</h1>
+    </header>
+
+    <!-- ÁREA DE CONTENIDO (Pistas deslizables o intercambiables) -->
+    <main class="app-content" id="app-content">
+      
+      <!-- TAB 1: RUTINAS -->
+      <div id="tab-routines" class="tab-content active">
+        <div class="welcome-banner">
+          <h2>¡Hola! Lista para entrenar hoy?</h2>
+          <div class="progress-summary">
+            <span id="days-completed-text">0/21 días completados</span>
+            <div class="progress-bar-bg">
+              <div class="progress-bar-fill" id="main-progress-bar"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="routines-list" id="routines-list">
+          <!-- Se llena con JS -->
+        </div>
+      </div>
+
+      <!-- TAB 2: NUTRICIÓN -->
+      <div id="tab-nutrition" class="tab-content">
+        <div class="content-card">
+          <img src="https://i.postimg.cc/SxMqMMqy/1-N1-Rxwfu-4a-Hp7g-Pi-Dr-N-1-min.png" alt="Nutrición" class="card-hero-img">
+          <h2>Alimentando el Músculo</h2>
+          <p>Para que el glúteo crezca, tu plato debe dividirse estratégicamente:</p>
+          <ul class="clean-list">
+            <li><strong>40% Proteínas:</strong> Pollo, huevos, pavo, proteína en polvo.</li>
+            <li><strong>40% Carbohidratos:</strong> Avena, arroz, quinoa. Energía para entrenar pesado.</li>
+            <li><strong>20% Grasas:</strong> Aguacate, aceite de oliva, almendras.</li>
+          </ul>
+        </div>
+        
+        <div class="content-card">
+          <h3>Plan Sugerido</h3>
+          <p><strong>Desayuno:</strong> 2 huevos enteros + 2 claras con espinaca y avena.</p>
+          <p><strong>Almuerzo:</strong> Pechuga a la plancha, media taza de arroz y vegetales.</p>
+          <p><strong>Merienda:</strong> Batido de proteína o yogur con almendras.</p>
+          <p><strong>Cena:</strong> Pescado o atún con ensalada.</p>
+        </div>
+      </div>
+
+      <!-- TAB 3: PROGRESO -->
+      <div id="tab-progress" class="tab-content">
+        <div class="content-card text-center">
+          <h2>Tu Evolución</h2>
+          <div class="trophy-icon">🏆</div>
+          <h1 class="giant-number" id="progress-giant-number">0%</h1>
+          <p>del programa completado</p>
+          
+          <button id="reset-btn" class="secondary-btn">Reiniciar Reto</button>
+        </div>
+        
+        <div class="content-card">
+          <h3>¿Cómo medir tu progreso real?</h3>
+          <p>El peor enemigo de tu motivación es la balanza. El músculo pesa más que la grasa pero ocupa menos espacio.</p>
+          <p>Para medir tu progreso real: fíjate en cómo te queda tu pantalón favorito, tómate fotos cada semana con la misma iluminación y usa cinta métrica.</p>
+        </div>
+      </div>
+
+      <!-- TAB 4: LECTURA Y AUDIO -->
+      <div id="tab-reading" class="tab-content">
+        <div class="content-card text-center" style="margin-top: 1rem;">
+          <h2>Libro & Podcast Oficial</h2>
+          <i class="fas fa-headphones-alt trophy-icon" style="color: var(--primary);"></i>
+          <p style="font-size: 1.1rem;">Lee la versión completa del método o escucha nuestro <strong>Podcast Exclusivo</strong> mientras vas al trabajo o entrenas.</p>
+          
+          <div style="margin-top: 1.5rem; background: #f8f9fa; padding: 1rem; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 1rem;">
+            <h4 style="margin-bottom: 0.5rem; color: var(--secondary); font-size: 1.05rem;">🎧 Capítulo 1: El Punto de partida</h4>
+            <audio controls style="width: 100%; outline: none; margin-top: 0.5rem;">
+              <source src="./Capitulo 1 El Punto de partida.m4a" type="audio/mp4">
+              Tu navegador no soporta el reproductor de audio.
+            </audio>
+          </div>
+
+          <div style="background: #f8f9fa; padding: 1rem; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 1rem;">
+            <h4 style="margin-bottom: 0.5rem; color: var(--secondary); font-size: 1.05rem;">🎧 Capítulo 2: El Método de 21 Días</h4>
+            <audio controls style="width: 100%; outline: none; margin-top: 0.5rem;">
+              <source src="./Capitulo 2 El Metodo de 21 Dias.m4a" type="audio/mp4">
+              Tu navegador no soporta el reproductor de audio.
+            </audio>
+          </div>
+
+          <div style="background: #f8f9fa; padding: 1rem; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 1rem;">
+            <h4 style="margin-bottom: 0.5rem; color: var(--secondary); font-size: 1.05rem;">🎧 Capítulo 3: Nutrición Estratégica</h4>
+            <audio controls style="width: 100%; outline: none; margin-top: 0.5rem;">
+              <source src="./Capitulo 3  Nutrición Estratégica.m4a" type="audio/mp4">
+              Tu navegador no soporta el reproductor de audio.
+            </audio>
+          </div>
+
+          <div style="background: #f8f9fa; padding: 1rem; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 1rem;">
+            <h4 style="margin-bottom: 0.5rem; color: var(--secondary); font-size: 1.05rem;">🎧 Capítulo 4: Descanso y Recuperación</h4>
+            <audio controls style="width: 100%; outline: none; margin-top: 0.5rem;">
+              <source src="./Capitulo 4 Descanso y Recuperación.m4a" type="audio/mp4">
+              Tu navegador no soporta el reproductor de audio.
+            </audio>
+          </div>
+
+          <a href="./ebook.pdf" target="_blank" class="primary-btn pulse" style="display:inline-block; text-decoration:none; margin-top:1.5rem; box-sizing:border-box;">Abrir Libro PDF</a>
+        </div>
+      </div>
+
+      <!-- TAB 5: BONOS -->
+      <div id="tab-bonos" class="tab-content">
+        <div class="content-card text-center" style="margin-top: 1rem;">
+          <h2 style="color: #FACC15;"><i class="fas fa-crown"></i> Bonos VIP</h2>
+          
+          <div id="vip-locked" style="display: block;">
+            <p style="font-size: 1.05rem;">Acelera tus resultados con los bonos exclusivos del programa.</p>
+            
+            <div style="background: #f8f9fa; border: 1px solid #ddd; padding: 1rem; border-radius: 12px; margin-top: 1.5rem; text-align: center;">
+              <img src="./portada-bono1.png" alt="Bono 1" style="width: 100%; max-width: 250px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 1rem;">
+              <h4 style="color: var(--primary); margin-bottom: 0.5rem; text-align: left;">Bono 1: Prácticas Seguras</h4>
+              <p class="small-text" style="text-align: left;">Guía para evitar lesiones en tu entrenamiento. Todo lo que necesitas saber para entrenar segura y proteger tus articulaciones.</p>
+            </div>
+            
+            <button id="buy-vip-btn" class="primary-btn pulse" style="background: #FACC15; color: #111; margin-top: 1.5rem; width: 100%;">
+              <i class="fas fa-lock"></i> Desbloquear por $3.00 USD
+            </button>
+            
+            <div style="margin-top: 2rem;">
+              <p class="small-text" style="margin-bottom: 0.5rem; font-weight: bold;">¿Ya los compraste?</p>
+              <input type="text" id="vip-code-input" placeholder="Ingresa tu código VIP" style="width: 100%; padding: 0.8rem; border-radius: 8px; border: 1px solid #ccc; margin-bottom: 0.5rem; font-family: inherit;">
+              <button id="unlock-vip-btn" class="secondary-btn" style="width: 100%;">Activar Bonos</button>
+              <p id="vip-error" style="color: red; display: none; font-size: 0.85rem; margin-top: 0.5rem;">Código incorrecto.</p>
+            </div>
+          </div>
+          
+          <div id="vip-unlocked" style="display: none;">
+            <h3 style="color: #2ecc71; margin-top: 1rem;"><i class="fas fa-check-circle"></i> VIP Activado</h3>
+            <p>Disfruta de tu contenido exclusivo.</p>
+            
+            <div style="background: #f8f9fa; border: 1px solid #ddd; padding: 1rem; border-radius: 12px; margin-top: 1.5rem; text-align: center;">
+              <img src="./portada-bono1.png" alt="Bono 1" style="width: 100%; max-width: 250px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 1rem;">
+              <h4 style="color: var(--primary); margin-bottom: 0.5rem; text-align: left;">Bono 1: Prácticas Seguras</h4>
+              <p class="small-text" style="text-align: left;">Guía completa en formato PDF descargable para evitar lesiones.</p>
+              <a href="./bono1.pdf" target="_blank" class="primary-btn pulse" style="display:inline-block; margin-top: 1rem; text-decoration: none; width: 100%; box-sizing: border-box;">Abrir Bono PDF</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- BOTTOM NAVIGATION BAR -->
+    <nav class="bottom-nav">
+      <button class="nav-item active" data-target="tab-routines" data-title="Rutinas">
+        <i class="fas fa-dumbbell"></i>
+        <span>Rutinas</span>
+      </button>
+      <button class="nav-item" data-target="tab-nutrition" data-title="Nutrición">
+        <i class="fas fa-apple-whole"></i>
+        <span>Nutrición</span>
+      </button>
+      <button class="nav-item" data-target="tab-progress" data-title="Mi Progreso">
+        <i class="fas fa-chart-line"></i>
+        <span>Progreso</span>
+      </button>
+      <button class="nav-item" data-target="tab-reading" data-title="Lectura & Audio">
+        <i class="fas fa-headphones"></i>
+        <span>Podcast</span>
+      </button>
+      <button class="nav-item" data-target="tab-bonos" data-title="Bonos VIP">
+        <i class="fas fa-gift"></i>
+        <span>Bonos</span>
+      </button>
+    </nav>
+  </div>
+
+  <!-- MODAL DE RUTINA DIARIA -->
+  <div id="routine-modal" class="modal">
+    <div class="modal-content">
+      <button class="close-modal"><i class="fas fa-times"></i></button>
+      <div class="modal-header">
+        <span class="modal-day" id="modal-day">Día 1</span>
+        <h2 id="modal-title">Título</h2>
+      </div>
+      <div class="modal-body" id="modal-body">
+        <!-- Contenido dinámico -->
+      </div>
+      
+      <!-- FLOATING TIMER (CRONÓMETRO) -->
+      <div id="floating-timer" class="floating-timer">
+        <div class="timer-display" id="timer-display">00:00</div>
+        <div class="timer-controls">
+          <button id="btn-timer-30">+30s</button>
+          <button id="btn-timer-60">+60s</button>
+          <button id="btn-timer-play"><i class="fas fa-play"></i></button>
+          <button id="btn-timer-reset"><i class="fas fa-redo"></i></button>
+        </div>
+      </div>
+      <button id="toggle-timer-btn" class="toggle-timer-btn"><i class="fas fa-stopwatch"></i></button>
+
+      <div class="modal-footer">
+        <button id="complete-day-btn" class="primary-btn pulse">Marcar como Completado</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal para agrandar imágenes -->
+  <div id="image-modal" class="image-modal">
+    <span class="close-image-modal">&times;</span>
+    <img class="expanded-img-content" id="expanded-img">
+  </div>
+
+  <!-- Scripts con versión para forzar actualización -->
+  <link rel="stylesheet" href="./app.css?v=62">
+  <script src="./data.js?v=62"></script>
+  <script src="./app.js?v=62"></script>
+</body>
+</html>

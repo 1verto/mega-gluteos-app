@@ -288,6 +288,59 @@ const routinesData = [
     day: 4,
     title: "Estiramientos y Movilidad",
     content: `
+      <!-- EXPLICACIÓN DESCANSO -->
+      <div class="content-card" style="background: linear-gradient(135deg, #FF8E53 0%, var(--primary) 100%); color: white; border-radius: 12px; margin-bottom: 1.5rem; text-align: center; box-shadow: 0 4px 10px rgba(255, 107, 107, 0.3);">
+        <h3 style="color: white; margin-top: 0;"><i class="fas fa-bed"></i> ¿Por qué no entrenamos glúteos hoy?</h3>
+        <p style="font-size: 0.95rem; margin-bottom: 0;">Tus glúteos son músculos muy grandes que necesitan entre 48 y 72 horas para recuperarse. <strong>¡El músculo crece cuando descansas, no cuando entrenas!</strong> Entrenarlos todos los días frena tu progreso y puede causar lesiones. Por eso hoy los dejaremos descansar.</p>
+      </div>
+
+      <p style="font-size: 1.05rem; color: var(--text-main);">Sin embargo, si eres de las que necesita sudar todos los días para mantener el hábito, aquí tienes una <strong>Rutina Opcional de Tren Superior y Abdomen</strong>. Así te mantienes activa sin sabotear el crecimiento de tus glúteos.</p>
+      
+      <div class="content-card" style="margin-bottom: 1.5rem; border-left: 4px solid var(--secondary);">
+        <h4 style="color: var(--secondary); margin-bottom: 0.5rem;">Rutina Opcional: Tren Superior y Core</h4>
+        <p style="font-size: 0.9rem; color: var(--text-main); margin-bottom: 0;">3 Rondas | 12-15 reps por ejercicio | 30s descanso</p>
+      </div>
+
+      <div class="interactive-form" style="margin-bottom: 2rem;">
+        <label class="checkbox-container">
+          <input type="checkbox" id="d4-opt1">
+          <span class="checkmark"></span>
+          <div class="checkbox-text">
+            <strong>1. Flexiones de brazos (Push-ups)</strong>
+            <img src="./ref-pushups.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Flexiones">
+            <p>Apoya las rodillas si eres principiante. Mantén el abdomen firme.</p>
+          </div>
+        </label>
+        <label class="checkbox-container">
+          <input type="checkbox" id="d4-opt2">
+          <span class="checkmark"></span>
+          <div class="checkbox-text">
+            <strong>2. Plancha isométrica (Plank)</strong>
+            <img src="./ref-plank.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Plancha">
+            <p>Mantén la posición 30 a 45 segundos. Codos bajo los hombros.</p>
+          </div>
+        </label>
+        <label class="checkbox-container">
+          <input type="checkbox" id="d4-opt3">
+          <span class="checkmark"></span>
+          <div class="checkbox-text">
+            <strong>3. Superman (Espalda baja)</strong>
+            <img src="./ref-superman.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Superman">
+            <p>Acuéstate boca abajo y eleva brazos y piernas a la vez. Aprieta la espalda.</p>
+          </div>
+        </label>
+        <label class="checkbox-container">
+          <input type="checkbox" id="d4-opt4">
+          <span class="checkmark"></span>
+          <div class="checkbox-text">
+            <strong>4. Crunch abdominal</strong>
+            <img src="./ref-crunch.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Crunch abdominal">
+            <p>Eleva solo los hombros del suelo apretando fuerte el abdomen.</p>
+          </div>
+        </label>
+      </div>
+
+      <h3 style="margin-top:1.5rem; color:var(--primary);">Estiramientos y Movilidad</h3>
       <p>El entrenamiento no está completo sin una rutina de estiramientos y movilidad. Estos ejercicios son fundamentales para prevenir lesiones, mejorar la flexibilidad y permitir una mejor recuperación muscular. Los glúteos, al ser músculos grandes y potentes, pueden acumular mucha tensión si no se estiran correctamente. Además, mejorar la movilidad de las caderas y la pelvis te permitirá ejecutar mejor los ejercicios y aumentar la amplitud de movimiento, lo que se traduce en mejores resultados.</p>
       
       <h3 style="margin-top:1.5rem; color:var(--primary);">Importancia de la movilidad:</h3>
@@ -420,6 +473,52 @@ const routinesData = [
       <h3 style="margin-top:1.5rem; color:var(--primary);">Hidratación y Suplementos</h3>
       <p>No podemos hablar de alimentación sin mencionar la importancia de la hidratación. Beber suficiente agua es vital (al menos 2 litros). Ayuda a transportar nutrientes a las células, elimina toxinas y previene calambres y fatiga. Evita las bebidas azucaradas, refrescos y jugos procesados.</p>
       <p><strong>Suplementos (no imprescindibles):</strong> Proteína en polvo, Creatina, BCAA, Multivitamínicos. Consulta con un profesional de la salud antes de iniciar.</p>
+
+      <!-- RUTINA OPCIONAL -->
+      <hr style="border: 0; border-top: 1px solid #eee; margin: 2rem 0;">
+      <div class="content-card" style="background: linear-gradient(135deg, #FF8E53 0%, var(--primary) 100%); color: white; border-radius: 12px; margin-bottom: 1.5rem; text-align: center; box-shadow: 0 4px 10px rgba(255, 107, 107, 0.3);">
+        <h3 style="color: white; margin-top: 0;"><i class="fas fa-heartbeat"></i> Rutina Opcional Quema-Grasa</h3>
+        <p style="font-size: 0.95rem; margin-bottom: 0;">Ayer trabajamos tren superior y hoy tus glúteos siguen en recuperación. Si sientes la necesidad de moverte y sudar, te dejo esta rutina de Cardio LISS (Baja Intensidad) que te ayudará a oxidar grasa sin fatigar tus músculos de hipertrofia.</p>
+      </div>
+
+      <div class="interactive-form">
+        <label class="checkbox-container">
+          <input type="checkbox" id="d5-opt1">
+          <span class="checkmark"></span>
+          <div class="checkbox-text">
+            <strong>1. Jumping Jacks (45 seg)</strong>
+            <img src="./ref-jumping-jacks.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Jumping Jacks">
+            <p>Mantén un ritmo constante. Si no quieres saltar, haz pasos laterales rápidos.</p>
+          </div>
+        </label>
+        <label class="checkbox-container">
+          <input type="checkbox" id="d5-opt2">
+          <span class="checkmark"></span>
+          <div class="checkbox-text">
+            <strong>2. Toques de punta de pie cruzados (45 seg)</strong>
+            <img src="./ref-toe-touches.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Toe Touches">
+            <p>De pie, levanta una pierna estirada e intenta tocarla con la mano contraria.</p>
+          </div>
+        </label>
+        <label class="checkbox-container">
+          <input type="checkbox" id="d5-opt3">
+          <span class="checkmark"></span>
+          <div class="checkbox-text">
+            <strong>3. Mountain climbers lentos (45 seg)</strong>
+            <img src="./ref-mountain-climbers.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Mountain Climbers">
+            <p>Lleva las rodillas al pecho sin saltar, con control total del abdomen.</p>
+          </div>
+        </label>
+        <label class="checkbox-container">
+          <input type="checkbox" id="d5-opt4">
+          <span class="checkmark"></span>
+          <div class="checkbox-text">
+            <strong>4. Plancha lateral (30 seg/lado)</strong>
+            <img src="./ref-side-plank.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Plancha lateral">
+            <p>Trabaja los oblicuos y la estabilidad. Apóyate en el antebrazo.</p>
+          </div>
+        </label>
+      </div>
 
       <div class="content-card" style="margin-bottom: 1.5rem; background: #fff5f5; border-left: 4px solid #FF3B30;">
         <h3 style="color: #FF3B30;"><i class="fas fa-exclamation-triangle"></i> Errores comunes</h3>

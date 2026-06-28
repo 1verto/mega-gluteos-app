@@ -1,7 +1,8 @@
 // ==========================================
-// CONFIGURACIÓN Y ESTADO GLOBAL
+// CONFIGURACIÓN GLOBAL
 // ==========================================
-const PASSWORD_CORRECTA = "gluteos21";
+const PASSWORD_CORRECTA = "1verto";
+const totalDays = 21;
 let progress = JSON.parse(localStorage.getItem("megaGluteosProgress")) || [];
 
 // ==========================================

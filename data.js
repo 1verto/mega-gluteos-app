@@ -483,10 +483,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>2. Puente de glúteos con banda (20 reps)</strong>
-            <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
-              <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i><br>
-              <span style="color: #888; font-size: 0.85rem; font-weight: bold;">[Imagen Pendiente]</span>
-            </div>
+            <img src="./ref-bridge-band.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Puente de glúteos con banda">
             <p>Acuéstate boca arriba, coloca la banda sobre las rodillas y eleva la cadera apretando los glúteos en la parte superior.</p>
           </div>
         </label>
@@ -496,10 +493,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>3. Abducciones laterales (15 reps/lado)</strong>
-            <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
-              <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i><br>
-              <span style="color: #888; font-size: 0.85rem; font-weight: bold;">[Imagen Pendiente]</span>
-            </div>
+            <img src="./ref-clamshell-band.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Abducciones laterales con banda">
             <p>De lado con la banda sobre las rodillas. Eleva la pierna superior lo más alto posible y baja lentamente.</p>
           </div>
         </label>
@@ -509,10 +503,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>4. Caminatas laterales (12 pasos/lado)</strong>
-            <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
-              <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i><br>
-              <span style="color: #888; font-size: 0.85rem; font-weight: bold;">[Imagen Pendiente]</span>
-            </div>
+            <img src="./ref-monster-walk-band.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Caminatas laterales con banda">
             <p>En semi-sentadilla, da pasos laterales manteniendo la tensión en la banda. Trabaja el glúteo medio.</p>
           </div>
         </label>
@@ -522,10 +513,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>5. Patadas en cuadrupedia (15 reps/lado)</strong>
-            <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
-              <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i><br>
-              <span style="color: #888; font-size: 0.85rem; font-weight: bold;">[Imagen Pendiente]</span>
-            </div>
+            <img src="./ref-kickback-band.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Patadas en cuadrupedia con banda">
             <p>A cuatro patas, banda sobre las rodillas. Eleva la pierna hacia atrás y arriba, apretando el glúteo.</p>
           </div>
         </label>
@@ -595,10 +583,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>1. Sprints en el lugar</strong>
-            <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
-              <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i><br>
-              <span style="color: #888; font-size: 0.85rem; font-weight: bold;">[Imagen Pendiente]</span>
-            </div>
+            <img src="./ref-sprints.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Sprints en el lugar">
             <p>Corre lo más rápido posible elevando las rodillas.</p>
           </div>
         </label>
@@ -608,10 +593,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>2. Jump squats (Sentadillas con salto)</strong>
-            <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
-              <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i><br>
-              <span style="color: #888; font-size: 0.85rem; font-weight: bold;">[Imagen Pendiente]</span>
-            </div>
+            <img src="./ref-jump-squat.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Jump squats">
             <p>Enfócate en apretar los glúteos al aterrizar y amortiguar el salto.</p>
           </div>
         </label>
@@ -621,10 +603,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>3. Mountain climbers</strong>
-            <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
-              <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i><br>
-              <span style="color: #888; font-size: 0.85rem; font-weight: bold;">[Imagen Pendiente]</span>
-            </div>
+            <img src="./ref-mountain-climbers.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Mountain climbers">
             <p>Trabaja la zona core y activa los glúteos llevando las rodillas al pecho en plancha.</p>
           </div>
         </label>
@@ -675,10 +654,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>1. Hip thrusts en el suelo con banda (12 reps)</strong>
-            <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
-              <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i><br>
-              <span style="color: #888; font-size: 0.85rem; font-weight: bold;">[Imagen Pendiente]</span>
-            </div>
+            <img src="./ref-bridge-band.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Hip thrusts con banda">
             <p>Banda sobre las rodillas. Eleva la cadera y mantén 2 segundos arriba antes de bajar.</p>
           </div>
         </label>

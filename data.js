@@ -97,6 +97,11 @@ const routinesData = [
         
         <button id="save-day1-btn" class="primary-btn pulse" style="margin-top: 1rem; width: 100%; border-radius: 8px;">Guardar mi Evaluación</button>
       </div>
+
+      <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; border-radius: 4px; margin-top: 1.5rem;">
+        <strong><i class="fas fa-exclamation-triangle"></i> ¡Atención para mañana!</strong><br>
+        Mañana usaremos una <strong>Banda de Resistencia</strong> (opcional pero muy recomendada) para maximizar el trabajo en el puente de glúteos.
+      </div>
     `
   },
   {
@@ -163,6 +168,11 @@ const routinesData = [
             <p>Acuéstate de lado con piernas flexionadas. Abre y cierra las rodillas sintiendo la zona lateral.</p>
           </div>
         </label>
+      </div>
+
+      <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; border-radius: 4px; margin-top: 1.5rem;">
+        <strong><i class="fas fa-exclamation-triangle"></i> ¡Atención para mañana!</strong><br>
+        Mañana trabajaremos con <strong>Bandas de Resistencia</strong>. ¡Asegúrate de tener la tuya a mano!
       </div>
     `
   },
@@ -729,6 +739,11 @@ const routinesData = [
       </div>
       
       <p style="margin-top:1.5rem; text-align:center; font-style: italic; color:var(--text-main);">Finaliza con estiramientos (5 min) y caminata lenta para bajar el ritmo cardíaco.</p>
+
+      <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; border-radius: 4px; margin-top: 1.5rem;">
+        <strong><i class="fas fa-exclamation-triangle"></i> ¡Atención para mañana!</strong><br>
+        Mañana volvemos a la acción de fuerza. Necesitaremos una <strong>Banda de Resistencia</strong>, una <strong>Silla o cajón</strong> para los step-ups, y de forma opcional <strong>Mancuernas (o botellas de agua grandes)</strong>.
+      </div>
     `
   },
   {
@@ -800,6 +815,11 @@ const routinesData = [
       </div>
       
       <p style="margin-top:1.5rem; text-align:center; font-style: italic; color:var(--text-main);">Enfriamiento (10 min): Estiramiento de glúteos, postura paloma, isquiotibiales y respiración profunda.</p>
+
+      <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; border-radius: 4px; margin-top: 1.5rem;">
+        <strong><i class="fas fa-exclamation-triangle"></i> ¡Atención para mañana!</strong><br>
+        Mañana trabajaremos el glúteo medio y estabilidad. ¡Ten a mano tu <strong>Banda de Resistencia</strong>!
+      </div>
     `
   },
   {
@@ -893,10 +913,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>1. Hip thrust con banda + pulsaciones (15 reps + 5 pulsaciones)</strong>
-            <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
-              <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i><br>
-              <span style="color: #888; font-size: 0.85rem; font-weight: bold;">[Imagen Pendiente]</span>
-            </div>
+            <img src="./ref-bridge-band.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Hip thrust con banda">
             <p>Mantén la contracción en la parte superior y termina con 5 pulsaciones cortitas arriba.</p>
           </div>
         </label>
@@ -906,10 +923,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>2. Sentadilla búlgara (12 reps/pierna)</strong>
-            <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
-              <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i><br>
-              <span style="color: #888; font-size: 0.85rem; font-weight: bold;">[Imagen Pendiente]</span>
-            </div>
+            <img src="./ref-bulgarian.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Sentadilla búlgara">
             <p>Apoya el pie trasero en una silla y baja controlando el movimiento. Mantén el peso en el talón delantero.</p>
           </div>
         </label>

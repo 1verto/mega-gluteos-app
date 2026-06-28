@@ -105,7 +105,7 @@ const routinesData = [
     content: `
       <p>Uno de los errores más comunes en el entrenamiento de glúteos es la falta de activación muscular previa. Muchas personas realizan ejercicios como sentadillas o zancadas sin sentir que trabajan los glúteos. Esto ocurre porque otros músculos compensan el esfuerzo, especialmente los cuádriceps y la zona lumbar.</p>
       
-      <img src="./ref-str-glute.png?v=55" alt="Activación Muscular" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 1rem 0;">
+      <img src="./ref-bad-form.png" alt="Mala Postura" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 1rem 0; border: 2px solid #E53E3E;">
       
       <h3>Conexión mente-músculo:</h3>
       <p>Para potenciar la activación, enfócate en el glúteo que estás trabajando. Visualiza cómo se contrae y relaja con cada repetición. Realiza los ejercicios lentamente y mantén la contracción durante 1 o 2 segundos en la parte superior.</p>
@@ -229,11 +229,11 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>3. Puente a una pierna (12 reps/lado)</strong>
-            <div style="position: relative; display: inline-block;">
-              <img src="./ref-thrust.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Puente a una pierna">
-              <div style="position: absolute; bottom: 5px; right: 5px; background: rgba(0,0,0,0.7); color: white; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px;">*Imagen referencial (base)</div>
+            <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem;">
+              <img src="./ref-single-leg-bridge.png" class="mini-ref-img" style="margin-top: 0; width: calc(50% - 0.25rem); height: auto; object-fit: cover;" alt="Puente a una pierna">
+              <img src="./ref-thrust.png" class="mini-ref-img" style="margin-top: 0; width: calc(50% - 0.25rem); height: auto; object-fit: cover;" alt="Opción con ambas piernas">
             </div>
-            <p>Levanta una pierna estirada al techo y empuja la cadera hacia arriba con la pierna de apoyo. (Si es muy difícil, usa ambas como en la foto).</p>
+            <p>Levanta una pierna estirada al techo y empuja la cadera hacia arriba con la pierna de apoyo. (Si es muy difícil, usa ambas como en la foto de la derecha).</p>
           </div>
         </label>
 
@@ -735,7 +735,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>2. Clamshells con banda (20 reps/lado)</strong>
-            <img src="./ref-clamshell.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Clamshells">
+            <img src="./ref-clamshell-band.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Clamshells con banda">
             <p>Acuéstate de lado con las piernas flexionadas y abre las rodillas manteniendo los pies juntos.</p>
           </div>
         </label>
@@ -765,10 +765,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>5. Caminatas laterales con banda (12 pasos/lado)</strong>
-            <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
-              <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i><br>
-              <span style="color: #888; font-size: 0.85rem; font-weight: bold;">[Imagen Pendiente]</span>
-            </div>
+            <img src="./ref-monster-walk-band.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Caminatas laterales con banda">
             <p>Mantén la posición semi-sentadilla y da pasos laterales con tensión constante en la banda.</p>
           </div>
         </label>

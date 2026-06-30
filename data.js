@@ -1080,6 +1080,11 @@ const routinesData = [
       <p style="font-size: 0.95rem; background: #fafafa; padding: 1rem; border-radius: 8px;">
         <strong>Consejos de Progresión:</strong> Si no tienes peso adicional, aumenta las repeticiones a 20-25 por serie. Disminuye los tiempos de descanso. Añade pulsaciones abajo para mayor intensidad.
       </p>
+
+      <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; border-radius: 4px; margin-top: 1.5rem;">
+        <strong><i class="fas fa-exclamation-triangle"></i> ¡Atención para mañana!</strong><br>
+        Mañana haremos Superseries para evitar el estancamiento. Necesitarás tu <strong>Banda de Resistencia</strong> y algo de <strong>Peso extra (Mancuernas o mochila)</strong>.
+      </div>
     `
   },
   {
@@ -1104,7 +1109,7 @@ const routinesData = [
             <strong>1. Superserie 1: Thrust & Sumo</strong>
             <p style="margin-bottom: 0.5rem;">- Hip thrusts con peso (15 reps)<br>- Sentadilla sumo con pulsaciones (15 reps)</p>
             <div style="display:flex; gap:10px;">
-              <img src="./ref-thrust.png" class="mini-ref-img" style="margin-top:0; width: 45%;" alt="Hip thrust">
+              <img src="./ref-thrust-weight.png" class="mini-ref-img" style="margin-top:0; width: 45%;" alt="Hip thrust con peso">
               <img src="./ref-sumo.png" class="mini-ref-img" style="margin-top:0; width: 45%;" alt="Sentadilla Sumo">
             </div>
           </div>
@@ -1130,11 +1135,8 @@ const routinesData = [
             <strong>3. Superserie 3: Step-ups & Puente 1 pierna</strong>
             <p style="margin-bottom: 0.5rem;">- Step-ups con carga (15 reps)<br>- Puente de glúteos a 1 pierna (12 reps/pierna)</p>
             <div style="display:flex; gap:10px;">
-              <img src="./ref-stepup.png" class="mini-ref-img" style="margin-top:0; width: 45%;" alt="Step-up">
-              <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; width: 45%; display:flex; flex-direction:column; justify-content:center;">
-                <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i>
-                <span style="color: #888; font-size: 0.75rem; font-weight: bold;">[Imagen Pendiente]</span>
-              </div>
+              <img src="./ref-stepup-backpack.png" class="mini-ref-img" style="margin-top:0; width: 45%;" alt="Step-up con carga">
+              <img src="./ref-single-leg-bridge.png" class="mini-ref-img" style="margin-top:0; width: 45%;" alt="Puente a 1 pierna">
             </div>
           </div>
         </label>
@@ -1144,10 +1146,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>4. Finalizador: Caminatas laterales</strong>
-            <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
-              <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i><br>
-              <span style="color: #888; font-size: 0.85rem; font-weight: bold;">[Imagen Pendiente]</span>
-            </div>
+            <img src="./ref-monster-walk-band.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Caminatas laterales con banda">
             <p>3 rondas de 15 pasos por lado con banda. ¡Para quemar al máximo el glúteo medio!</p>
           </div>
         </label>

@@ -1,4 +1,4 @@
-// ==========================================
+﻿// ==========================================
 // CONFIGURACIÓN GLOBAL
 // ==========================================
 const PASSWORD_CORRECTA = "1verto";
@@ -759,6 +759,18 @@ function initDay15Forms() {
         if (el) dataToSave[id] = el.value;
       });
       localStorage.setItem('megaGluteosDay15', JSON.stringify(dataToSave));
+
+  const saveAnalysisBtn = document.getElementById('save-day15-analysis');
+  const analysisInput = document.getElementById('d15-analysis-input');
+  if (saveAnalysisBtn && analysisInput) {
+    const savedAnalysis = localStorage.getItem('megaGluteosDay15Analysis');
+    if (savedAnalysis) analysisInput.value = savedAnalysis;
+    
+    saveAnalysisBtn.addEventListener('click', () => {
+      localStorage.setItem('megaGluteosDay15Analysis', analysisInput.value);
+      alert('¡Tu análisis personal ha sido guardado con éxito!');
+    });
+  }
       alert('¡Medidas de Evaluación guardadas con éxito! ¡Felicidades por llegar a la mitad del reto!');
     });
   }
@@ -1251,3 +1263,60 @@ window.calculateProtein = function() {
   resultDiv.style.opacity = '0';
   setTimeout(() => resultDiv.style.opacity = '1', 50);
 };
+
+
+
+// --- CALCULADORA DE CALORÍAS Y MACROS ---
+document.addEventListener('DOMContentLoaded', () => {
+  const btnCalcular = document.getElementById('btn-calcular');
+  if(btnCalcular) {
+    btnCalcular.addEventListener('click', () => {
+      const peso = parseFloat(document.getElementById('calc-peso').value);
+      const altura = parseFloat(document.getElementById('calc-altura').value);
+      const edad = parseFloat(document.getElementById('calc-edad').value);
+      const actividad = parseFloat(document.getElementById('calc-actividad').value);
+
+      if(!peso || !altura || !edad) {
+        alert('Por favor completa peso, altura y edad para calcular tus macros.');
+        return;
+      }
+
+      // Fórmula de Mifflin-St Jeor para mujeres
+      // TMB = (10 × peso) + (6.25 × altura) - (5 × edad) - 161
+      const tmb = (10 * peso) + (6.25 * altura) - (5 * edad) - 161;
+      
+      // Calorías de Mantenimiento
+      const mantenimiento = tmb * actividad;
+
+      // Superávit calórico para glúteos (+300 kcal)
+      const caloriasObjetivo = Math.round(mantenimiento + 300);
+
+      // Distribución 40 / 40 / 20
+      const calProteina = caloriasObjetivo * 0.40;
+      const calCarbos = caloriasObjetivo * 0.40;
+      const calGrasas = caloriasObjetivo * 0.20;
+
+      // Gramos
+      // Proteína y Carbos aportan 4 kcal por gramo. Grasa aporta 9 kcal por gramo.
+      const gProteina = Math.round(calProteina / 4);
+      const gCarbos = Math.round(calCarbos / 4);
+      const gGrasas = Math.round(calGrasas / 9);
+
+      // Renderizar en UI
+      document.getElementById('res-calorias').textContent = caloriasObjetivo;
+      document.getElementById('res-proteina').textContent = gProteina;
+      document.getElementById('res-carbos').textContent = gCarbos;
+      document.getElementById('res-grasas').textContent = gGrasas;
+
+      // Mostrar contenedor y animar
+      const resultadosDiv = document.getElementById('calc-resultados');
+      resultadosDiv.style.display = 'block';
+      resultadosDiv.style.animation = 'fadeInUp 0.5s ease forwards';
+    });
+  }
+});
+
+
+
+
+

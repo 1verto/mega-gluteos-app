@@ -779,7 +779,7 @@ const routinesData = [
           <div class="checkbox-text">
             <strong>2. Sentadillas sumo con pulsaciones (12 reps)</strong>
             <img src="./ref-sumo.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Sentadilla sumo">
-            <p>Piernas más abiertas que los hombros. Baja y realiza tres pequeñas pulsaciones abajo antes de subir.</p>
+            <p>Piernas más abiertas que los hombros. Baja y realiza tres pequeñas pulsaciones (rebotes cortos sin subir del todo) abajo antes de subir.</p>
           </div>
         </label>
 
@@ -832,7 +832,7 @@ const routinesData = [
         <h4 style="color: var(--secondary); margin-bottom: 0.5rem;">Rutina de Hoy: Enfoque Lateral</h4>
         <p style="font-size: 0.9rem; color: var(--text-main); margin-bottom: 0;">
           <strong>Duración:</strong> 50 minutos.<br>
-          <strong>Calentamiento (8 min):</strong> Caminatas laterales con banda (2x10), 15 sentadillas, 20 puentes con pulso, 3 min movilidad.<br>
+          <strong>Calentamiento (8 min):</strong> Caminatas laterales con banda (2x10), 15 sentadillas, 20 puentes con pulso (rebotes cortos arriba), 3 min movilidad.<br>
           <strong>Formato Principal:</strong> 5 Rondas | 40s trabajo | 20s descanso.<br>
           <em>¡Usa el cronómetro flotante para guiarte en cada intervalo!</em>
         </p>
@@ -914,7 +914,7 @@ const routinesData = [
           <div class="checkbox-text">
             <strong>1. Hip thrust con banda + pulsaciones (15 reps + 5 pulsaciones)</strong>
             <img src="./ref-bridge-band.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Hip thrust con banda">
-            <p>Mantén la contracción en la parte superior y termina con 5 pulsaciones cortitas arriba.</p>
+            <p>Mantén la contracción en la parte superior y termina con 5 pulsaciones (rebotes muy cortos y rápidos manteniendo la cadera arriba).</p>
           </div>
         </label>
         
@@ -1019,7 +1019,7 @@ const routinesData = [
       <div class="content-card" style="margin-bottom: 1.5rem; background: #fafafa; border-left: 4px solid var(--secondary);">
         <h4 style="color: var(--secondary); margin-bottom: 0.5rem;">Rutina de Alta Intensidad (60 min)</h4>
         <p style="font-size: 0.9rem; color: var(--text-main); margin-bottom: 0;">
-          <strong>Calentamiento (10 min):</strong> 3 min caminata/saltos suaves, 20 sentadillas, 3 min movilidad, 15 puentes con pulso.<br>
+          <strong>Calentamiento (10 min):</strong> 3 min caminata/saltos suaves, 20 sentadillas, 3 min movilidad, 15 puentes con pulso (rebotes cortos).<br>
           <strong>Formato Principal:</strong> 5 Rondas | 15 reps por ejercicio | 45s descanso entre ejercicios.<br>
           <em>¡Usa el cronómetro flotante para tus descansos!</em>
         </p>
@@ -1107,7 +1107,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>1. Superserie 1: Thrust & Sumo</strong>
-            <p style="margin-bottom: 0.5rem;">- Hip thrusts con peso (15 reps)<br>- Sentadilla sumo con pulsaciones (15 reps)</p>
+            <p style="margin-bottom: 0.5rem;">- Hip thrusts con peso (15 reps)<br>- Sentadilla sumo con pulsaciones (rebotes cortos abajo) (15 reps)</p>
             <div style="display:flex; gap:10px;">
               <img src="./ref-thrust-weight.png" class="mini-ref-img" style="margin-top:0; width: 45%;" alt="Hip thrust con peso">
               <img src="./ref-sumo.png" class="mini-ref-img" style="margin-top:0; width: 45%;" alt="Sentadilla Sumo">
@@ -1248,12 +1248,15 @@ const routinesData = [
     day: 14,
     title: "Entrenamiento Funcional + Cardio",
     content: `
-      <p>¡Has llegado a los 2/3 del programa! Hoy combinamos entrenamiento funcional y cardio para mejorar tu resistencia y quemar grasa.</p>
+      <div style="background-color: #fff3cd; border-left: 4px solid #ff9800; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+        <h3 style="color: #e65100; margin-top: 0; margin-bottom: 0.5rem;"><i class="fas fa-fire"></i> ¡Etapa Crítica Alcanzada!</h3>
+        <p style="font-size: 1rem; color: #4e342e; margin-bottom: 0;">Has superado los primeros <strong>2/3 del programa</strong>. Tu cuerpo ya no es el mismo que el del Día 1; has desarrollado una disciplina de hierro y una fuerza que antes no tenías. Hoy pondremos a prueba tu nueva versión con una sesión <strong>explosiva</strong> de Entrenamiento Funcional y Cardio HIIT. Prepárate para sudar a mares, llevar tu corazón al límite y derretir grasa mientras tonificamos esos glúteos. <strong>¡Entra en la zona y demuestra de qué estás hecha!</strong></p>
+      </div>
       
       <div class="content-card" style="margin-bottom: 1.5rem; background: #fafafa; border-left: 4px solid var(--secondary);">
         <h4 style="color: var(--secondary); margin-bottom: 0.5rem;">Circuito Funcional (50 min)</h4>
         <p style="font-size: 0.9rem; color: var(--text-main); margin-bottom: 0;">
-          <strong>Calentamiento (8 min):</strong> 2 min saltos suaves, 3 min movilidad articular, 15 puentes de glúteos con pulsaciones.<br>
+          <strong>Calentamiento (8 min):</strong> 2 min saltos suaves, 3 min movilidad articular, 15 puentes de glúteos con pulsaciones (rebotes cortos).<br>
           <strong>Formato Principal:</strong> 4 Rondas | 40s trabajo x 20s descanso.<br>
           <em>¡Usa tu cronómetro flotante para guiarte en los intervalos!</em>
         </p>
@@ -1265,10 +1268,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>1. Jump squats (Sentadilla con salto)</strong>
-            <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
-              <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i><br>
-              <span style="color: #888; font-size: 0.85rem; font-weight: bold;">[Imagen Pendiente]</span>
-            </div>
+            <img src="./ref-jump-squat.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Jump squat">
             <p>Salta explosivamente desde la posición de sentadilla.</p>
           </div>
         </label>
@@ -1278,7 +1278,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>2. Step-ups rápidos con carga</strong>
-            <img src="./ref-stepup.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Step up">
+            <img src="./ref-stepup-backpack.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Step up">
             <p>Trabaja la potencia y resistencia a velocidad alta.</p>
           </div>
         </label>
@@ -1288,10 +1288,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>3. Zancadas laterales con banda</strong>
-            <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
-              <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i><br>
-              <span style="color: #888; font-size: 0.85rem; font-weight: bold;">[Imagen Pendiente]</span>
-            </div>
+            <img src="./ref-side-lunge-band.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Zancada lateral con banda">
             <p>Fortalece glúteos y aductores (parte interna de la pierna).</p>
           </div>
         </label>
@@ -1301,10 +1298,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>4. Mountain climbers</strong>
-            <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
-              <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i><br>
-              <span style="color: #888; font-size: 0.85rem; font-weight: bold;">[Imagen Pendiente]</span>
-            </div>
+            <img src="./ref-mountain-climbers.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Mountain climbers">
             <p>En posición de plancha, lleva rodillas al pecho. Mejora el cardio y la estabilidad del core.</p>
           </div>
         </label>
@@ -1314,20 +1308,27 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>5. Hip thrusts con pulsaciones</strong>
-            <img src="./ref-thrust.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Hip thrust">
+            <img src="./ref-thrust-pulse.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Hip thrust">
             <p>Finaliza con contracciones máximas en la parte alta.</p>
           </div>
         </label>
       </div>
 
       <p style="margin-top:1.5rem; text-align:center; font-style: italic; color:var(--text-main);">Enfriamiento (10 min): Caminata ligera y estiramientos profundos.</p>
+      <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; border-radius: 4px; margin-top: 1.5rem;">
+        <strong><i class="fas fa-exclamation-triangle"></i> ¡Atención para mañana!</strong><br>
+        Mañana es tu <strong>Evaluación Intermedia</strong>. Solo necesitarás tu <strong>Cinta Métrica</strong> o tu cuaderno para revisar tu progreso. ¡Felicidades por llegar hasta aquí!
+      </div>
     `
   },
   {
     day: 15,
     title: "Evaluación Intermedia y Reajuste",
     content: `
-      <p>¡Llegar al Día 15 es un gran logro! Es normal notar ya mejoras en fuerza, resistencia y tonificación. Hoy es el día para evaluar tus avances y celebrar tu progreso.</p>
+      <div style="background-color: #fff3cd; border-left: 4px solid #ff9800; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+        <h3 style="color: #e65100; margin-top: 0; margin-bottom: 0.5rem;"><i class="fas fa-trophy"></i> ¡Misión Cumplida: Llegaste a la Mitad!</h3>
+        <p style="font-size: 1rem; color: #4e342e; margin-bottom: 0;"><strong>¡Felicidades!</strong> Llegar al Día 15 no es casualidad; es el resultado de tu constancia y esfuerzo. Tu cuerpo ya está cambiando: tienes más fuerza, más resistencia y una firmeza que empieza a notarse. Hoy no vamos a levantar pesas pesadas, hoy es el día para medir, comparar, celebrar tus avances y llenarnos de motivación para la segunda mitad del reto. <strong>¡Siéntete orgullosa de ti misma!</strong></p>
+      </div>
       
       <div class="content-card" style="margin-bottom: 1.5rem; background: #fafafa; border-left: 4px solid var(--secondary);">
         <h4 style="color: var(--secondary); margin-bottom: 0.5rem;">I. Medición de Progreso</h4>
@@ -1398,10 +1399,10 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>2. Puentes de glúteos (20 reps)</strong>
-            <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
-              <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i><br>
-              <span style="color: #888; font-size: 0.85rem; font-weight: bold;">[Imagen Pendiente]</span>
-            </div>
+            <img src="./ref-bridge.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Puente">
+
+
+
           </div>
         </label>
 
@@ -1414,6 +1415,22 @@ const routinesData = [
             <p>Mantén cada postura por 30 segundos.</p>
           </div>
         </label>
+      </div>
+
+      <div class="quiz-card" style="background: #fff; border-radius: 12px; padding: 1.5rem; margin-top: 2rem; margin-bottom: 1.5rem; box-shadow: 0 4px 10px rgba(0,0,0,0.05); border: 1px solid #ffebee;">
+        <h3 style="color: var(--primary); margin-top: 0; margin-bottom: 1rem;"><i class="fas fa-brain"></i> Quiz de la Mitad del Reto</h3>
+        <p style="font-weight: 600; margin-bottom: 1rem; font-size: 0.95rem;">¿Qué técnica hemos estado aplicando para evitar el estancamiento y aumentar la intensidad muscular sin necesidad de usar pesas cada vez más grandes?</p>
+        
+        <ul style="list-style: none; padding: 0; margin: 0 0 1rem 0; gap: 0.5rem; display: flex; flex-direction: column;">
+          <li onclick="checkQuizAnswer(this, false)" style="padding: 0.8rem; background: #f8f9fa; border-radius: 8px; border: 1px solid #eee; font-size: 0.95rem; cursor: pointer;">A) Entrenar todos los días sin descanso</li>
+          <li onclick="checkQuizAnswer(this, true)" style="padding: 0.8rem; background: #f8f9fa; border-radius: 8px; border: 1px solid #eee; font-size: 0.95rem; cursor: pointer;">B) Usar Superseries (dos ejercicios seguidos sin pausa)</li>
+          <li onclick="checkQuizAnswer(this, false)" style="padding: 0.8rem; background: #f8f9fa; border-radius: 8px; border: 1px solid #eee; font-size: 0.95rem; cursor: pointer;">C) Hacer estiramientos más largos al final</li>
+        </ul>
+        
+        <div class="quiz-explanation" style="display: none; transition: opacity 0.4s ease; margin-top: 1rem; font-size: 0.95rem; line-height: 1.5; color: #166534; border-top: 1px solid #bbf7d0; padding-top: 1rem; background: #f0fdf4; padding: 1rem; border-radius: 8px;">
+          <strong>¡Correcto! Las Superseries. 🔥</strong><br><br>
+          Al combinar dos ejercicios consecutivos (como Hip thrust + Sentadilla Sumo) sin descanso, obligas al músculo a trabajar al límite de fatiga con el mismo peso, logrando un estímulo brutal para el crecimiento y quemando más calorías en menos tiempo.
+        </div>
       </div>
 
       <p style="margin-top:1.5rem; text-align:center; font-style: italic; color:var(--text-main);">La segunda mitad del programa será clave para consolidar y potenciar estos resultados. ¡Sigue dándolo todo!</p>
@@ -1430,7 +1447,7 @@ const routinesData = [
         </p>
       </div>
       
-      <p style="font-size: 0.9rem; font-style: italic;"><strong>Calentamiento (10 min):</strong> 2 rondas de marcha rodillas altas (2 min), 15 sentadillas sin peso, círculos cadera (1 min/lado), caminatas banda (10/lado), puente con pulsaciones (15 reps).</p>
+      <p style="font-size: 0.9rem; font-style: italic;"><strong>Calentamiento (10 min):</strong> 2 rondas de marcha rodillas altas (2 min), 15 sentadillas sin peso, círculos cadera (1 min/lado), caminatas banda (10/lado), puente con pulsaciones (rebotes cortos arriba) (15 reps).</p>
 
       <h3 style="margin-top:1.5rem; color:var(--primary);">Bloque 1: Cardio + Activación (15 min)</h3>
       <p style="font-size:0.85rem; color:var(--text-main);"><strong>Formato:</strong> 3 Rondas | 40s trabajo x 20s descanso | 1 min descanso entre rondas.</p>
@@ -1441,10 +1458,10 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>1. Jump squats (Sentadillas con salto)</strong>
-            <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
-              <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i><br>
-              <span style="color: #888; font-size: 0.85rem; font-weight: bold;">[Imagen Pendiente]</span>
-            </div>
+            <img src="./ref-jump-squat.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Jump squat">
+
+
+
             <p>Apretar glúteos al aterrizar.</p>
           </div>
         </label>
@@ -1454,10 +1471,10 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>2. Caminatas laterales con banda</strong>
-            <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
-              <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i><br>
-              <span style="color: #888; font-size: 0.85rem; font-weight: bold;">[Imagen Pendiente]</span>
-            </div>
+            <img src="./ref-monster-walk-band.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Caminatas laterales">
+
+
+
             <p>Mantén la tensión y da pasos amplios.</p>
           </div>
         </label>
@@ -1502,7 +1519,10 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>Par 1: Hip thrusts con banda (15) + Burpees (10)</strong>
-            <img src="./ref-thrust.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Hip thrust">
+              <div style="display:flex; gap:0.5rem; margin-top:0.5rem; align-items:flex-start;">
+                <img src="./ref-thrust-band.png" class="mini-ref-img" style="margin-top:0;" alt="Hip thrust con banda">
+                <img src="./ref-burpee.png" class="mini-ref-img" style="margin-top:0;" alt="Burpees">
+              </div>
             <p>Fuerza y explosión cardíaca.</p>
           </div>
         </label>
@@ -1512,7 +1532,10 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>Par 2: Zancadas caminando (12/pierna) + Mountain climbers (40s)</strong>
-            <img src="./ref-lunge.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Lunge">
+              <div style="display:flex; gap:0.5rem; margin-top:0.5rem; align-items:flex-start;">
+                <img src="./ref-lunge.png" class="mini-ref-img" style="margin-top:0;" alt="Lunge">
+                <img src="./ref-mountain-climbers.png" class="mini-ref-img" style="margin-top:0;" alt="Mountain climbers">
+              </div>
             <p>Empuja desde el talón en las zancadas.</p>
           </div>
         </label>
@@ -1522,7 +1545,10 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>Par 3: Sentadilla sumo con peso (15) + Jump squats (12)</strong>
-            <img src="./ref-sumo.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Sumo">
+              <div style="display:flex; gap:0.5rem; margin-top:0.5rem; align-items:flex-start;">
+                <img src="./ref-sumo.png" class="mini-ref-img" style="margin-top:0;" alt="Sumo">
+                <img src="./ref-jump-squat.png" class="mini-ref-img" style="margin-top:0;" alt="Jump squats">
+              </div>
             <p>Fuerza profunda en glúteos seguida de salto.</p>
           </div>
         </label>
@@ -1532,7 +1558,10 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>Par 4: Elev. laterales banda (15/lado) + Sprints (40s)</strong>
-            <img src="./ref-sideraise.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Elevación Lateral">
+              <div style="display:flex; gap:0.5rem; margin-top:0.5rem; align-items:flex-start;">
+                <img src="./ref-sideraise-band.png" class="mini-ref-img" style="margin-top:0;" alt="Elevaciones laterales con banda">
+                <img src="./ref-sprints.png" class="mini-ref-img" style="margin-top:0;" alt="Sprints">
+              </div>
             <p>Glúteo medio y rodillas altas corriendo en el lugar.</p>
           </div>
         </label>
@@ -1714,7 +1743,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>1. Hip thrusts con carga</strong>
-            <img src="./ref-thrust.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Hip thrust">
+            <img src="./ref-thrust-weight.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Hip thrust">
             <p>Eleva la cadera y mantén la contracción durante 3 segundos en la parte alta.</p>
           </div>
         </label>
@@ -1734,7 +1763,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>3. Step-ups con peso (15 rep/pierna)</strong>
-            <img src="./ref-stepup.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Step up">
+            <img src="./ref-stepup-backpack.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Step up">
             <p>Empuja desde el talón y enfócate en la activación del glúteo.</p>
           </div>
         </label>
@@ -1744,7 +1773,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>4. Zancadas inversas con peso (12 rep/pierna)</strong>
-            <img src="./ref-lunge.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Zancada">
+            <img src="./ref-lunge-weight.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Zancada">
             <p>Mantén la espalda recta y baja hasta que la rodilla trasera toque suavemente el suelo.</p>
           </div>
         </label>
@@ -1755,7 +1784,7 @@ const routinesData = [
           <div class="checkbox-text">
             <strong>5. Puente de glúteos con banda y pulsaciones (20 rep + 10 pulso)</strong>
             <img src="./ref-thrust-pulse.png" alt="Puente de glúteos con banda y pulsaciones" class="mini-ref-img" style="margin-top: 0.5rem;">
-            <p>Mantén la cadera arriba y realiza pequeños rebotes al final.</p>
+            <p>Mantén la cadera arriba y realiza 10 pulsaciones (pequeños y rápidos rebotes sin bajar al piso) al final.</p>
           </div>
         </label>
 
@@ -1833,7 +1862,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>2. Step-ups rápidos con peso</strong>
-            <img src="./ref-stepup.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Step up">
+            <img src="./ref-stepup-backpack.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Step up">
             <p>Realiza el movimiento lo más rápido posible manteniendo la técnica.</p>
           </div>
         </label>
@@ -1853,7 +1882,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>4. Puente de glúteos con banda</strong>
-            <img src="./ref-thrust.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Puente">
+            <img src="./ref-thrust-band.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Puente">
             <p>Mantén la contracción 2 segundos en la parte alta.</p>
           </div>
         </label>
@@ -1863,7 +1892,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>5. Zancadas laterales con banda (15 rep/lado)</strong>
-            <img src="./ref-side-lunge.png" alt="Zancadas laterales con banda" class="mini-ref-img" style="margin-top: 0.5rem;">
+            <img src="./ref-side-lunge-band.png" alt="Zancadas laterales con banda" class="mini-ref-img" style="margin-top: 0.5rem;">
             <p>Trabaja el glúteo medio y los aductores.</p>
           </div>
         </label>
@@ -1887,6 +1916,7 @@ const routinesData = [
             <span class="checkmark"></span>
             <div class="checkbox-text">
               <strong>Puente isométrico (1 minuto)</strong>
+              <img src="./ref-bridge-hold.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Puente">
               <p>Mantén la cadera elevada y aprieta los glúteos.</p>
             </div>
           </label>
@@ -1895,6 +1925,7 @@ const routinesData = [
             <span class="checkmark"></span>
             <div class="checkbox-text">
               <strong>Sentadilla isométrica (1 minuto)</strong>
+              <img src="./ref-wall-sit.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Sentadilla isométrica">
               <p>Contra la pared, como si estuvieras sentada en una silla.</p>
             </div>
           </label>
@@ -1912,6 +1943,7 @@ const routinesData = [
             <span class="checkmark"></span>
             <div class="checkbox-text">
               <strong>Caminatas laterales con banda</strong>
+              <img src="./ref-monster-walk-band.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Caminatas laterales">
               <p>2 rondas de 15 pasos por lado.</p>
             </div>
           </label>
@@ -1986,7 +2018,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>2. Puente de glúteos con banda</strong>
-            <img src="./ref-thrust.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Puente">
+            <img src="./ref-thrust-band.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Puente">
             <p>Mantén la contracción en la parte alta.</p>
           </div>
         </label>
@@ -2038,6 +2070,16 @@ const routinesData = [
     day: 21,
     title: "Cierre y Plan de Mantenimiento",
     content: `
+      <div class="welcome-card" style="background: linear-gradient(135deg, #FFD700 0%, #FF8E53 100%); border-radius: 15px; padding: 2rem 1.5rem; color: white; margin-bottom: 2rem; text-align: center; box-shadow: 0 10px 25px rgba(255, 142, 83, 0.4); position: relative; overflow: hidden;">
+        <img src="./camila-avatar.png" alt="Anais Vidal" style="display: block; margin: 0 auto 1.5rem; width: 160px; height: 160px; border-radius: 50%; object-fit: cover; border: 5px solid white; box-shadow: 0 6px 15px rgba(0,0,0,0.2);">
+        <h2 style="margin: 0 0 1rem 0; font-size: 1.8rem; color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.2);">¡LO LOGRASTE! 🏆</h2>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6; color: rgba(255,255,255,0.95); text-shadow: 1px 1px 2px rgba(0,0,0,0.1);">
+          Estoy infinitamente orgullosa de ti. Has completado tus 21 días con una disciplina y un compromiso de acero. Hoy no es el final, sino el inicio de tu nueva mejor versión. Todo el sudor y el esfuerzo valieron la pena. 
+          <br><br>
+          ¡Celébralo en grande! Hoy cerramos con broche de oro.
+        </p>
+      </div>
+      
       <p>El último día del programa está enfocado en consolidar los resultados obtenidos con un entrenamiento integral de cuerpo inferior y un plan de alimentación alto en proteínas para potenciar la recuperación muscular y mantener la tonificación. La proteína es esencial para reparar las fibras musculares trabajadas durante estas semanas y evitar la pérdida de masa magra.</p>
       
       <div class="content-card" style="margin-bottom: 1.5rem; background: #fafafa; border-left: 4px solid var(--primary);">
@@ -2065,7 +2107,7 @@ const routinesData = [
           <input type="checkbox" id="d21-ex1">
           <span class="checkmark"></span>
           <div class="checkbox-text">
-            <strong>1. Hip thrusts con banda y peso</strong>
+            <strong>1. Hip thrusts (15 reps)</strong>
             <img src="./ref-thrust.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Hip thrust">
             <p>Mantén la contracción en la parte alta por 3 segundos.</p>
           </div>
@@ -2076,10 +2118,10 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>2. Sentadillas búlgaras (12 rep/pierna)</strong>
-            <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
-              <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i><br>
-              <span style="color: #888; font-size: 0.85rem; font-weight: bold;">[Imagen Pendiente]</span>
-            </div>
+              <img src="./ref-bulgarian.png" alt="Sentadillas búlgaras" class="mini-ref-img" style="margin-top: 0.5rem;">
+
+
+
             <p>Desafía la estabilidad y la fuerza unilateral.</p>
           </div>
         </label>
@@ -2089,7 +2131,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>3. Step-ups con peso (15 rep/pierna)</strong>
-            <img src="./ref-stepup.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Step up">
+              <img src="./ref-stepup-backpack.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Step up con peso">
             <p>Enfócate en empujar desde el talón para activar los glúteos.</p>
           </div>
         </label>
@@ -2098,7 +2140,7 @@ const routinesData = [
           <input type="checkbox" id="d21-ex4">
           <span class="checkmark"></span>
           <div class="checkbox-text">
-            <strong>4. Fire hydrants con banda (20 rep/lado)</strong>
+            <strong>4. Fire hydrants (20 rep/lado)</strong>
             <img src="./ref-hydrant.png" alt="Fire hydrants con banda" class="mini-ref-img" style="margin-top: 0.5rem;">
             <p>Trabaja el glúteo medio y la cadera.</p>
           </div>
@@ -2118,9 +2160,9 @@ const routinesData = [
           <input type="checkbox" id="d21-ex6">
           <span class="checkmark"></span>
           <div class="checkbox-text">
-            <strong>6. Puente de glúteos con pulsaciones (20 rep + 10 pulso)</strong>
+            <strong>6. Puente de glúteos con banda y pulsaciones (20 rep + 10 pulso)</strong>
             <img src="./ref-thrust-pulse.png" alt="Puente de glúteos con pulsaciones" class="mini-ref-img" style="margin-top: 0.5rem;">
-            <p>Finaliza con una activación máxima.</p>
+            <p>Finaliza con 10 pulsaciones (rebotes cortos arriba sin bajar la cadera) para una activación máxima.</p>
           </div>
         </label>
       </div>
@@ -2217,3 +2259,5 @@ const routinesData = [
     `
   }
 ];
+
+

@@ -1031,7 +1031,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>1. Hip thrusts con carga (15 reps)</strong>
-            <img src="./ref-thrust.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Hip thrust">
+            <img src="./ref-thrust-weight.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Hip thrust con peso">
             <p>Utiliza una mochila con peso o pesa en las caderas. Mantén la contracción en la parte alta por 3 segundos.</p>
           </div>
         </label>
@@ -1041,10 +1041,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>2. Sentadillas búlgaras con peso (12 reps/pierna)</strong>
-            <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
-              <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i><br>
-              <span style="color: #888; font-size: 0.85rem; font-weight: bold;">[Imagen Pendiente]</span>
-            </div>
+            <img src="./ref-bulgarian-weight.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Sentadillas búlgaras con peso">
             <p>Usa una botella con agua o cualquier objeto pesado en las manos.</p>
           </div>
         </label>
@@ -1054,7 +1051,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>3. Zancadas caminando con carga (14 pasos/pierna)</strong>
-            <img src="./ref-lunge.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Zancadas con carga">
+            <img src="./ref-lunge-weight.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Zancadas con carga">
             <p>Enfócate en empujar desde el talón para activar los glúteos al avanzar.</p>
           </div>
         </label>
@@ -1064,7 +1061,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>4. Step-ups con mochila (10 reps/pierna)</strong>
-            <img src="./ref-stepup.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Step up">
+            <img src="./ref-stepup-backpack.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Step up con mochila">
             <p>Sube de forma controlada a una silla o banco con peso extra en la espalda o manos.</p>
           </div>
         </label>
@@ -1074,10 +1071,7 @@ const routinesData = [
           <span class="checkmark"></span>
           <div class="checkbox-text">
             <strong>5. Puente de glúteos con banda y peso (20 reps)</strong>
-            <div style="background-color: #f4f4f4; border: 2px dashed #ccc; border-radius: 8px; padding: 1rem; text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
-              <i class="fas fa-camera" style="color: #aaa; font-size: 1.5rem; margin-bottom: 5px;"></i><br>
-              <span style="color: #888; font-size: 0.85rem; font-weight: bold;">[Imagen Pendiente]</span>
-            </div>
+            <img src="./ref-bridge-band-weight.png" class="mini-ref-img" style="margin-top:0.5rem;" alt="Puente de glúteos con banda y peso">
             <p>Mantén la tensión en la banda mientras elevas, con peso en la pelvis.</p>
           </div>
         </label>

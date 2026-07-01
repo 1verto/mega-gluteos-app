@@ -123,7 +123,7 @@ h1, h2, h3, h4 {
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  background: linear-gradient(135deg, #FFF, #F0F4F8);
+  background: linear-gradient(135deg, #0f0f0f, #222);
 }
 
 .login-container {
@@ -853,4 +853,5 @@ h1, h2, h3, h4 {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(0,0,0,0.2);
 }
+
 
